@@ -1,9 +1,15 @@
 import { Link } from "react-router-dom";
 
+import classes from "./MainNavigation.module.css";
+// What we import here is actually a JS object, where all
+// the css classes we define on MainNavigation.modules.css  will
+// be properties of that object. We can attach those classes to
+// the jsx elements of this file now.
+
 function MainNavigation() {
   return (
-    <header>
-      <div>React Meetups</div>
+    <header className={classes.header}>
+      <div className={classes.logo}>React Meetups</div>
       <nav>
         <ul>
           <li>
