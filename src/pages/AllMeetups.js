@@ -1,3 +1,5 @@
+import MeetupList from "../components/meetups/MeetupList";
+
 const DUMMY_DATA = [
   {
     id: "m1",
@@ -24,11 +26,13 @@ function AllMeetupsPage() {
     <section>
       <h1>All Meetups</h1>
       <ul>
-        {DUMMY_DATA.map((meetup) => {
+        {/* {DUMMY_DATA.map((meetup) => {
           return <li key={meetup.id}>{meetup.title}</li>;
           // This will return all title values of the properties of
           // DUMMY_DATA array as Unordered list items.
-        })}
+        })} */}
+        <MeetupList meetups={DUMMY_DATA} />
+        {/* This meetups is the prop we use in MeetupList.js file */}
       </ul>
     </section>
   );
