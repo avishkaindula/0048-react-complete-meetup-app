@@ -4,7 +4,7 @@ URL for this Deployed Web App : https://meetup-project-react.netlify.app
 
 This is a meetup app created using React and Firebase Realtime Database.  
 
-Technologies used - React , HTML , Firebase , react-dom , css , useEffect , Context API , Github , render.com  
+Technologies used - React , HTML , Firebase , react-dom , css , useEffect , Context API , Github , Netlify  
 
 ![Meetup 1](https://user-images.githubusercontent.com/100791045/210075502-db3653f7-c219-442f-998b-7fdc0f24371c.PNG)
 
