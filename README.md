@@ -1,6 +1,6 @@
 URL for this Deployed Web App : https://meetup-project-react.netlify.app  
 
-A Meetup App created using React and Firebase Realtime Database  
+**A Meetup App created using React and Firebase Realtime Database**  
 
 This is a meetup app created using React and Firebase Realtime Database.  
 
